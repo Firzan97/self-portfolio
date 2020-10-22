@@ -6,7 +6,9 @@
       class="shadow-lg"
       style="background-color: #faee1c;"
     >
-      <b-navbar-brand class="font-weight-bolder text-monospace" href="#"
+      <b-avatar src="https://placekitten.com/300/300"></b-avatar>
+
+      <b-navbar-brand class="font-weight-bolder text-monospace pl-3" href="#"
         >FIRZAN AZRAI</b-navbar-brand
       >
 

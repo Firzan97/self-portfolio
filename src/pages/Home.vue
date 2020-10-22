@@ -39,12 +39,20 @@
         </div>
       </div>
     </div>
+    <Education />
+    <ProfileCard />
   </div>
 </template>
 
 <script>
+import Education from "../components/Education.vue";
+import ProfileCard from "../components/ProfileCard.vue";
 export default {
   name: "Home",
+  components: {
+    Education,
+    ProfileCard,
+  },
   data() {
     return {
       projects: [
