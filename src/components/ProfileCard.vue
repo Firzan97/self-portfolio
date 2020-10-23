@@ -24,8 +24,10 @@ export default {
 
 <style scoped>
 .container {
-  background-image: url("../assets/profile2.jpg");
+  background-image: url("https://hukaloh.online/wp-content/uploads/2020/03/photo6255639271742482733.jpg");
   flex: none;
   height: 300px;
+  background-size: 70% 100%;
+  width: 800px;
 }
 </style>

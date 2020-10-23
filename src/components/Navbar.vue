@@ -21,9 +21,7 @@
           <b-nav-item>
             <router-link to="/Profile">Profile</router-link></b-nav-item
           >
-          <b-nav-item>
-            <router-link to="/About">Aboout</router-link></b-nav-item
-          >
+          <b-nav-item> <router-link to="/About">About</router-link></b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

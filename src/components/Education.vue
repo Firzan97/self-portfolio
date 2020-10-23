@@ -16,7 +16,7 @@
       </div>
       <div class="col-md-5">
         <img
-          src="../assets/profile2.jpg"
+          src="/assets/profile2.jpg"
           class="rounded float-left"
           alt="..."
           style="width:400px; height:500px;"
@@ -40,7 +40,7 @@
       </div>
       <div class="col-md-5 order-md-1">
         <img
-          src="../assets/profile2.jpg"
+          src="/assets/runner.jpg"
           class="rounded float-right"
           alt="..."
           style="width:400px; height:500px;"
@@ -64,20 +64,12 @@
         </p>
       </div>
       <div class="col-md-5">
-        <svg
-          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-          width="500"
-          height="500"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: 500x500"
-        >
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#eee" />
-          <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-        </svg>
+        <img
+          src="/assets/profile4.jpg"
+          class="rounded float-left"
+          alt="..."
+          style="width:400px; height:500px;"
+        />
       </div>
     </div>
 
@@ -91,4 +83,17 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+img {
+  transition: 1s;
+  transform: rotate(-9deg);
+}
+
+img:hover {
+  transform: scale(1.05);
+  background: white;
+  color: black;
+  box-shadow: 2px 7px 12px 1px grey;
+  transform: rotate(0deg);
+}
+</style>

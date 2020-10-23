@@ -10,7 +10,7 @@
         <p>
           Future full stack developer that strives to be the best among the best
         </p>
-        <b-button variant="primary" href="#"
+        <b-button variant="warning" href="#"
           >Want to know more about me?</b-button
         >
       </b-jumbotron>
@@ -31,10 +31,6 @@
             <b-card-text>
               {{ project.description }}
             </b-card-text>
-
-            <b-button :href="project.link" variant="primary"
-              >Go somewhere</b-button
-            >
           </b-card>
         </div>
       </div>
@@ -57,27 +53,24 @@ export default {
     return {
       projects: [
         {
-          image:
-            "https://www.site24x7.com/help/images/anomaly-widget-dns-server.png",
-          name: "DNS Monitoring System",
+          image: "/assets/rocket.png",
+          name: "Fast Learner",
           description:
-            "A monitoring system that was developed for monitory the dns availablity using cronjob",
+            "I am very fast learner in learning a new technology that might be hard for the first time.",
           link: "https://github.com/Firzan97/dns_monitoring",
         },
         {
-          image:
-            "https://www.site24x7.com/help/images/anomaly-widget-dns-server.png",
-          name: "DNS Monitoring System",
+          image: "/assets/barchart.png",
+          name: "Always productive",
           description:
-            "A monitoring system that was developed for monitory the dns availablity using cronjob",
+            "I strives to be productive because I believe every hours is important in IT field",
           link: "https://github.com/Firzan97/dns_monitoring",
         },
         {
-          image:
-            "https://www.site24x7.com/help/images/anomaly-widget-dns-server.png",
-          name: "DNS Monitoring System",
+          image: "/assets/target.png",
+          name: "Goal-Oriented",
           description:
-            "A monitoring system that was developed for monitory the dns availablity using cronjob",
+            "I always trying to give all the best to meet my goal even if I failed 1000 times",
           link: "https://github.com/Firzan97/dns_monitoring",
         },
       ],
@@ -86,4 +79,16 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+img {
+  transform: scale(0.45);
+
+  transition: 1s;
+}
+
+img:hover {
+  transform: scale(1.05);
+
+  transform: rotate(0deg);
+}
+</style>
