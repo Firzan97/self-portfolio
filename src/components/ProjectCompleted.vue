@@ -30,14 +30,14 @@ export default {
     return {
       projects: [
         {
-          image: "@/assets/calculator.PNG",
+          image: "public/assets/calculator.PNG",
           name: "Calculator Application",
           description:
             "Calculator application created using Vuejs. Developing the app for the purpose of learning on how vue js functioning.",
           link: "https://master.d131ilqmg8wmfc.amplifyapp.com/",
         },
         {
-          image: "/assets/currencyconverter.PNG",
+          image: "assets/currencyconverter.PNG",
           name: "Currency Converter",
           description:
             "A simple currency converter application created using vuejs. The data retrieve from Exchangerateapi.io API and the also from restcountries API. The APIs are pulled using axios",
