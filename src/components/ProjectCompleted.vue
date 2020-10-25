@@ -30,7 +30,7 @@ export default {
     return {
       projects: [
         {
-          image: "public/assets/calculator.PNG",
+          image: "/assets/calculator.png",
           name: "Calculator Application",
           description:
             "Calculator application created using Vuejs. Developing the app for the purpose of learning on how vue js functioning.",
@@ -58,7 +58,7 @@ export default {
           link: "https://weather-application-firzan.herokuapp.com/",
         },
         {
-          image: "/assets/hukaloh.PNG",
+          image: "/assets/hukaloh.png",
           name: "My Blog",
           description:
             "Just a simple blog for me to post the story of my life. Sometimes I post something related to tech and review. Created using Wordpress with the Elementary builder.",

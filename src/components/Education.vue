@@ -65,7 +65,7 @@
       </div>
       <div class="col-md-5">
         <img
-          src="/assets/profile4.jpg"
+          src="/assets/profile4.JPG"
           class="rounded float-left"
           alt="..."
           style="width:400px; height:500px;"
