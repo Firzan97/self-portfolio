@@ -4,7 +4,7 @@
       <div class="p-4" v-for="project in projects" :key="project.name">
         <b-card
           :title="project.name"
-          :src="project.image"
+          :img-src="project.image"
           img-alt="Image"
           img-top
           style="max-width: 20rem; height:30rem;"
@@ -44,21 +44,21 @@ export default {
           link: "https://master.d20i2rehr5l6wo.amplifyapp.com/",
         },
         {
-          image: "/assets/portfolio.png",
+          image: "./assets/portfolio.png",
           name: "Portfolio",
           description:
             "My portfolio website for advertising myself. The tech that been used for developing this project are Gatsby, Graphql, Strapi, Netlify, Cloudinary and Vanilla CSS",
           link: "https://firzan-io.netlify.app/",
         },
         {
-          image: "/assets/weather.PNG",
+          image: "assets/weather.PNG",
           name: "Weather Forecast Application",
           description:
             "Developed using nodejs, Expressjs, Vanilla CSS. The forecast data are retrieved using API which is MapBox API and WeatherStack API. Deploy via Heroku",
           link: "https://weather-application-firzan.herokuapp.com/",
         },
         {
-          image: "/assets/hukaloh.png",
+          image: "assets/hukaloh.png",
           name: "My Blog",
           description:
             "Just a simple blog for me to post the story of my life. Sometimes I post something related to tech and review. Created using Wordpress with the Elementary builder.",
