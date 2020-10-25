@@ -37,21 +37,21 @@ export default {
           link: "https://master.d131ilqmg8wmfc.amplifyapp.com/",
         },
         {
-          image: "assets/currencyconverter.PNG",
+          image: "assets/currencyconverter.png",
           name: "Currency Converter",
           description:
             "A simple currency converter application created using vuejs. The data retrieve from Exchangerateapi.io API and the also from restcountries API. The APIs are pulled using axios",
           link: "https://master.d20i2rehr5l6wo.amplifyapp.com/",
         },
         {
-          image: "/assets/portfolio.PNG",
+          image: "/assets/portfolio.png",
           name: "Portfolio",
           description:
             "My portfolio website for advertising myself. The tech that been used for developing this project are Gatsby, Graphql, Strapi, Netlify, Cloudinary and Vanilla CSS",
           link: "https://firzan-io.netlify.app/",
         },
         {
-          image: "/assets/weather.PNG",
+          image: "/assets/weather.png",
           name: "Weather Forecast Application",
           description:
             "Developed using nodejs, Expressjs, Vanilla CSS. The forecast data are retrieved using API which is MapBox API and WeatherStack API. Deploy via Heroku",
