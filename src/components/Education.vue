@@ -33,8 +33,8 @@
           <span class="text-muted"></span>
         </h2>
         <p class="lead">
-          Life as a programmer means that you exposed yourself to many kind of
-          desease because all you do just sit on the chair and coding for 8
+          Life as a programmer means that you exposed yourself to many kinds of
+          disease because all you do just sit on the chair and coding for 8
           hours. Running can help you to eliminate this
         </p>
       </div>
@@ -56,10 +56,10 @@
           Like to do hards things <span class="text-muted"></span>
         </h2>
         <p class="lead">
-          During my internship at LocalHost sdn bhd, Seksyen 15 Shah Alam. I was
+          uring my internship at LocalHost Sdn bhd, Seksyen 15 Shah Alam. I was
           exposed by my supervisor to do things that I never do before and it
           was the hard one. In the end, that kind of experience that I learned
-          helped me to be fast learner and growth me to be someone that hard s
+          helped me to be a fast learner and growth me to be someone that hard
           to give up
         </p>
       </div>

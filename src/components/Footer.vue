@@ -53,8 +53,8 @@
 
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">
-        © 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        © 2020 Created by:
+        <a href="https://mdbootstrap.com/"> Firzan Azrai</a>
       </div>
       <!-- Copyright -->
     </footer>
