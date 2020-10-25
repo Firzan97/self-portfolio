@@ -4,7 +4,7 @@
       <div class="p-4" v-for="project in projects" :key="project.name">
         <b-card
           :title="project.name"
-          :img-src="project.image"
+          :src="project.image"
           img-alt="Image"
           img-top
           style="max-width: 20rem; height:30rem;"
