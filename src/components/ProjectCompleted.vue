@@ -30,7 +30,7 @@ export default {
     return {
       projects: [
         {
-          image: "/assets/calculator.png",
+          image: "/assets/runner.jpg",
           name: "Calculator Application",
           description:
             "Calculator application created using Vuejs. Developing the app for the purpose of learning on how vue js functioning.",
@@ -51,7 +51,7 @@ export default {
           link: "https://firzan-io.netlify.app/",
         },
         {
-          image: "/assets/weather.png",
+          image: "/assets/weather.PNG",
           name: "Weather Forecast Application",
           description:
             "Developed using nodejs, Expressjs, Vanilla CSS. The forecast data are retrieved using API which is MapBox API and WeatherStack API. Deploy via Heroku",
