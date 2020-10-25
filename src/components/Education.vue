@@ -16,7 +16,7 @@
       </div>
       <div class="col-md-5">
         <img
-          src="/assets/profile.jpg"
+          src="/assets/profile2.jpg"
           class="rounded float-left"
           alt="..."
           style="width:400px; height:500px;"
