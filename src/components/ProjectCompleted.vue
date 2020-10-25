@@ -30,7 +30,7 @@ export default {
     return {
       projects: [
         {
-          image: "./assets/calculator.PNG",
+          image: "assets/calculator.PNG",
           name: "Calculator Application",
           description:
             "Calculator application created using Vuejs. Developing the app for the purpose of learning on how vue js functioning.",
