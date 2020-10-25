@@ -30,21 +30,21 @@ export default {
     return {
       projects: [
         {
-          image: "../assets/calculator.PNG",
+          image: "@/assets/calculator.PNG",
           name: "Calculator Application",
           description:
             "Calculator application created using Vuejs. Developing the app for the purpose of learning on how vue js functioning.",
           link: "https://master.d131ilqmg8wmfc.amplifyapp.com/",
         },
         {
-          image: "../assets/currencyconverter.PNG",
+          image: "/assets/currencyconverter.PNG",
           name: "Currency Converter",
           description:
             "A simple currency converter application created using vuejs. The data retrieve from Exchangerateapi.io API and the also from restcountries API. The APIs are pulled using axios",
           link: "https://master.d20i2rehr5l6wo.amplifyapp.com/",
         },
         {
-          image: "../assets/portfolio.PNG",
+          image: "/assets/portfolio.PNG",
           name: "Portfolio",
           description:
             "My portfolio website for advertising myself. The tech that been used for developing this project are Gatsby, Graphql, Strapi, Netlify, Cloudinary and Vanilla CSS",
